@@ -27,7 +27,7 @@
 
 import config as cf
 from DISClib.ADT import list as lt
-assert cf
+assert cfgit 
 
 """
 En el modelo, se crean las estructuras de datos, es decir,
@@ -71,6 +71,6 @@ def createTagList():
 
 def addBookTags(booktagsfile):
     # TO-DO: Modificación del Est-1 y Est-2 en el Lab 2
-    booktags = lt.newList(datastructure='SINGLE_LINKED',
-        filename=booktagsfile)
-    return booktags
+    bts = lt.newList(datastructure='SINGLE_LINKED',
+                       filename=booktagsfile)
+    return bts
