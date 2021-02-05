@@ -52,7 +52,7 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(booktagsfile):
+def loadBooksTags(filename):
     # TO-DO: Modificación del Est-1 y Est-2 en el Lab 2
-    booktagsfile = cf.data_dir + filename
-    return model.addBookTags(booktagsfile)
+    btfile = cf.data_dir + filename
+    return model.addBookTags(btfile)
